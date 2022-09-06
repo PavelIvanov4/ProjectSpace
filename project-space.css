@@ -1,0 +1,194 @@
+body {
+	background : repeating-linear-gradient(rgb(247, 255, 255), rgb(190, 255, 255), rgb(120, 255, 255));
+	background-size : cover;
+	background-attachment : fixed;
+	margin : 0;
+}
+
+tr, td {
+	outline : 5px solid darkCyan;
+	padding : 10px;
+	background : rgb(120, 255, 200);
+	font-family : Montserrat;
+	font-size : 35px;
+}
+
+a {
+	color : darkGreen;
+	text-decoration : none;
+}
+
+select {
+	font : 32px Bebas Neue;
+	background : bisque;
+	border : 3px double black;
+	color : rgb(75, 103, 30);
+}
+
+input {
+	font : 27px Source Sans Pro;
+	color : midnightBlue;
+	background : lightBlue;
+}
+
+a:visited {
+	color : orange;
+}
+
+.logo {
+	font-family : Righteous;
+	font-size : 60px;
+	margin-left : 35%;
+	margin-top : 150px;
+	color : darkBlue;
+}
+
+.content {
+	font-family : Montserrat;
+	font-size : 30px;
+	line-height : 1.5em;
+	width : 88%;
+	margin-top : 90px;
+	margin-left : 4%;
+	border : 5px double #202020;
+	padding : 20px 6px 20px 20px;
+	color : #202020;
+}
+
+.content2 {
+	height : 900px;
+}
+
+.intro {
+	font-family : Montserrat;
+	font-size : 30px;
+	line-height : 1.5em;
+	width : 88%;
+	margin-top : 90px;
+	margin-left : 4%;
+	border : 5px double #202020;
+	padding : 20px 6px 20px 20px;
+	color : #202020;
+}
+
+.menu {
+	font : 35px Verdana;
+	background : #202020;
+	height : 75px;
+	width : 100%;
+	color : white;
+	cursor : default;
+	transition : all 0.9s ease;
+	position : fixed;
+	top : 0px;
+	left : 0px;
+	z-index : 1;
+}
+
+.image {
+	width : 90px;
+	height : 65px;
+}
+
+.ctable {
+	color : #202020;
+	border : 10px ridge steelBlue;
+	position : absolute;
+	top : 150px;
+	left : 5%;
+}
+
+.calcmode {
+	border : 10px ridge rgb(115, 22, 175);
+	width : 40%;
+	padding : 15px 15px 15px 15px;
+	font-size : 40px;
+	color : #202020;
+	background : rgb(226, 235, 103);
+	position : relative;
+	top : 50px;
+	font-family : IBM Plex Sans;
+	margin-left : 30%;
+}
+
+#o1 {
+	position : absolute;
+	top : 15px;
+	left : 18%;
+	transition : all 0.9s ease;
+}
+
+#o2 {
+	position : absolute;
+	top : 15px;
+	left : 38%;
+	transition : all 0.9s ease;	
+}
+
+#o3 {
+	position : absolute;
+	top : 15px;
+	left : 58%;
+	transition : all 0.9s ease;	
+}
+
+#o4 {
+	position : absolute;
+	top : 5px;
+	left : 78%;
+}
+
+#o5 {
+	position : absolute;
+	top : 5px;
+	left : 87%;
+}
+
+#contentid {
+	display : block;
+}
+
+#contentid2 {
+	display : none;
+}
+
+#contentid3 {
+	display : none;
+}
+
+#o1:hover {
+	color : turquoise;
+}
+
+#o2:hover {
+	color : turquoise;
+}
+
+#o3:hover {
+	color : turquoise;
+}
+
+@font-face {
+	src : url('Righteous-Regular.ttf');
+	font-family : Righteous;
+}
+
+@font-face {
+	src : url('Montserrat-VariableFont_wght.ttf');
+	font-family : Montserrat;
+}
+
+@font-face {
+	src : url('IBMPlexSans-Regular.ttf');
+	font-family : IBM Plex Sans;
+}
+
+@font-face {
+	src : url('SourceSansPro-SemiBold.ttf');
+	font-family : Source Sans Pro;
+}
+
+@font-face {
+	src : url('BebasNeue-Regular.ttf');
+	font-family : Bebas Neue;
+}
